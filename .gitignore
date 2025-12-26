@@ -1,0 +1,25 @@
+# OS / Python junk
+.DS_Store
+__pycache__/
+
+# ROS / colcon outputs
+build/
+install/
+log/
+
+# Potential mistake of doing colcon build in src folder
+src/build/
+src/install/
+src/log/
+
+# MAVLink logs
+*.tlog
+*.tlog.raw
+
+# EEPROM / params
+eeprom.bin
+mav.parm
+
+#Micro DDS
+Micro-XRCE-DDS-Gen/
+
